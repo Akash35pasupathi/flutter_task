@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">#2980b9</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#2980b9</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#e74c3c</item>
+    </style>
+</resources>
